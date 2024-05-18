@@ -1,3 +1,4 @@
+/* base styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
@@ -24,4 +25,16 @@ body {
 
 .icon {
     font-size: 4rem;
+}
+
+/* layouts */
+
+/* emoji cards container */
+main > div.emojis{
+    display: grid;
+}
+
+/* emoji cards */
+div.emoji{
+    display: flex;
 }
