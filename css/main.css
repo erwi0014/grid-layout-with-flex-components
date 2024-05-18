@@ -32,9 +32,23 @@ body {
 /* emoji cards container */
 main > div.emojis{
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
 }
 
 /* emoji cards */
 div.emoji{
     display: flex;
+    flex-direction: column;
+}
+
+/* make button (anchor) align with bottom of card */
+div.emoji a{
+    margin-top: auto;
+}
+
+/* make emoji first and centred */
+div.emoji span{
+    order: -1;
+    align-self: center;
 }
